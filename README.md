@@ -1,31 +1,61 @@
-# Vue Onsen UI Kitchen Sink
+# Hello World PhoneGap Template [![bitHound Score][bithound-img]][bithound-url]
 
-This is a sample app featuring **Onsen UI 2 + Vue**. This version uses **Vuex** to share the state among components.
+A PhoneGap Hello World template
 
-> A version **without Vuex** is provided in [`no-vuex` branch](https://github.com/onsenui/vue-onsenui-kitchensink/tree/no-vuex).
+## Usage
 
-**Check out the [preview here](https://onsenui.github.io/vue-onsenui-kitchensink/)**.
+#### PhoneGap CLI
 
-This project has been created with [vue-cli](https://github.com/vuejs/vue-cli) and [webpack-simple](https://github.com/vuejs-templates/webpack-simple) template. Webpack configuration has been modified to work with Onsen UI +2.2.0.
+The hello-world template is the default when you create a new application using the [phonegap-cli][phonegap-cli-url].
 
-## About CSS
+    phonegap create my-app
 
-Onsen UI bundles `css/onsen-css-components.css` wich can be directly included in an app. However, this example uses the source `css-components-src/src/onsen-css-components.css` where colors can be easily modified. In order to support this, [`postcss-cssnext`](https://github.com/MoOx/postcss-cssnext) must be used in Webpack.
+Create an app using this template specifically:
+
+    phonegap create my-app --template hello-world
+
+To see a list of other available PhoneGap templates:
+
+    phonegap template list
+
+## [config.xml][config-xml]
+
+#### &lt;access ...&gt; (All)
+
+This template defaults to wide open access.
+
+    <access origin="*" />
+
+It is strongly encouraged that you restrict access to external resources in your application before releasing to production.
+
+For more information on whitelist configuration, see the [Cordova Whitelist Guide][cordova-whitelist-guide] and the [Cordova Whitelist Plugin documentation][cordova-plugin-whitelist]
+
+## [www/index.html][index-html]
+
+#### Content Security Policy (CSP)
+
+The default CSP is similarly open:
+
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+
+Much like the access tag above, you are strongly encouraged to use a more restrictive CSP in production.
+
+A good starting point declaration might be:
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" />
+
+For more information on the Content Security Policy, see the [section on CSP in the Cordova Whitelist Plugin documentation][cordova-plugin-whitelist-csp].
+
+Another good resource for generating a good CSP declaration is [CSP is Awesome][csp-is-awesome]
 
 
-## Build Setup
-
-``` bash
-# install dependencies
-yarn install
-
-# serve with hot reload at localhost:8080
-yarn run dev
-
-# build for production with minification
-yarn run build
-```
-
-## Licensing
-
-[MIT License](LICENSE.md)
+[phonegap-cli-url]: http://github.com/phonegap/phonegap-cli
+[cordova-app]: http://github.com/apache/cordova-app-hello-world
+[bithound-img]: https://www.bithound.io/github/phonegap/phonegap-app-hello-world/badges/score.svg
+[bithound-url]: https://www.bithound.io/github/phonegap/phonegap-app-hello-world
+[config-xml]: https://github.com/phonegap/phonegap-template-hello-world/blob/master/config.xml
+[index-html]: https://github.com/phonegap/phonegap-template-hello-world/blob/master/www/index.html
+[cordova-whitelist-guide]: https://cordova.apache.org/docs/en/dev/guide/appdev/whitelist/index.html
+[cordova-plugin-whitelist]: http://cordova.apache.org/docs/en/latest/reference/cordova-plugin-whitelist
+[cordova-plugin-whitelist-csp]: http://cordova.apache.org/docs/en/latest/reference/cordova-plugin-whitelist#content-security-policy
+[csp-is-awesome]: http://cspisawesome.com
