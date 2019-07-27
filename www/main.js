@@ -9,10 +9,10 @@ import Router from 'vue-router';
 import VueOnsen from 'vue-onsenui'; // For UMD
 // import VueOnsen from 'vue-onsenui/esm'; // For ESM
 // import * as OnsenComponents from './onsen-components'; // For ESM
-import storeLike from 'store.js';
-import CustomToolbar from 'partials/CustomToolbar.vue';
-import CustomDetail from 'partials/CustomDetail.vue';
-import AppNavigator from 'AppNavigator.vue';
+import storeLike from './store.js';
+import CustomToolbar from './partials/CustomToolbar.vue';
+import CustomDetail from './partials/CustomDetail.vue';
+import AppNavigator from './AppNavigator.vue';
 
 Vue.use(Vuex);
 Vue.use(VueOnsen);
