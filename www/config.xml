@@ -6,7 +6,7 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>Super CMO App</name>
+    <name>Spiderman</name>
 
     <description>
         This is CMO App.
@@ -41,24 +41,24 @@
 
     <!-- Define app icon and splashscreen for each platform. -->
     <platform name="android">
-        <icon   src="www/res/icon/android/drawable-ldpi-icon.png"               density="ldpi" />
-        <icon   src="www/res/icon/android/drawable-mdpi-icon.png"               density="mdpi" />
-        <icon   src="www/res/icon/android/drawable-hdpi-icon.png"               density="hdpi" />
-        <icon   src="www/res/icon/android/drawable-xhdpi-icon.png"              density="xhdpi" />
-        <icon   src="www/res/icon/android/drawable-xxhdpi-icon.png"             density="xxhdpi" />
-        <icon   src="www/res/icon/android/drawable-xxxhdpi-icon.png"            density="xxxhdpi" />
-        <splash src="www/res/screen/android/drawable-land-ldpi-screen.png"      density="land-ldpi" />
-        <splash src="www/res/screen/android/drawable-land-mdpi-screen.png"      density="land-mdpi" />
-        <splash src="www/res/screen/android/drawable-land-hdpi-screen.png"      density="land-hdpi" />
-        <splash src="www/res/screen/android/drawable-land-xhdpi-screen.png"     density="land-xhdpi" />
-        <splash src="www/res/screen/android/drawable-land-xxhdpi-screen.png"    density="land-xxhdpi" />
-        <splash src="www/res/screen/android/drawable-land-xxxhdpi-screen.png"   density="land-xxxhdpi" />
-        <splash src="www/res/screen/android/drawable-port-ldpi-screen.png"      density="port-ldpi" />
-        <splash src="www/res/screen/android/drawable-port-mdpi-screen.png"      density="port-mdpi" />
-        <splash src="www/res/screen/android/drawable-port-hdpi-screen.png"      density="port-hdpi" />
-        <splash src="www/res/screen/android/drawable-port-xhdpi-screen.png"     density="port-xhdpi" />
-        <splash src="www/res/screen/android/drawable-port-xxhdpi-screen.png"    density="port-xxhdpi" />
-        <splash src="www/res/screen/android/drawable-port-xxxhdpi-screen.png"   density="port-xxxhdpi" />
+        <icon   src="www/img/logo.png"               density="ldpi" />
+        <icon   src="www/img/logo.png"               density="mdpi" />
+        <icon   src="www/img/logo.png"               density="hdpi" />
+        <icon   src="www/img/logo.png"              density="xhdpi" />
+        <icon   src="www/img/logo.png"             density="xxhdpi" />
+        <icon   src="www/img/logo.png"            density="xxxhdpi" />
+        <splash src="www/img/logo.png"      density="land-ldpi" />
+        <splash src="www/img/logo.png"      density="land-mdpi" />
+        <splash src="www/img/logo.png"      density="land-hdpi" />
+        <splash src="www/img/logo.png"     density="land-xhdpi" />
+        <splash src="www/img/logo.png"    density="land-xxhdpi" />
+        <splash src="www/img/logo.png"   density="land-xxxhdpi" />
+        <splash src="www/img/logo.png"      density="port-ldpi" />
+        <splash src="www/img/logo.png"      density="port-mdpi" />
+        <splash src="www/img/logo.png"      density="port-hdpi" />
+        <splash src="www/img/logo.png"     density="port-xhdpi" />
+        <splash src="www/img/logo.png"    density="port-xxhdpi" />
+        <splash src="www/img/logo.png"   density="port-xxxhdpi" />
     </platform>
 
     <platform name="ios">
