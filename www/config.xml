@@ -3,9 +3,9 @@
   <description/>
   <author/>
   <access origin="*"/>
-  <content src="index.html"/>
+  <content src="index.html?platform=android"/>
   
-  <content src="main.html?platform=android"/><plugin name="cordova-plugin-whitelist" spec="1"/>
+  <plugin name="cordova-plugin-whitelist" spec="1"/>
   <allow-navigation href="*"/>
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
