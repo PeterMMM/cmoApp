@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><widget xmlns="http://www.w3.org/ns/widgets" id="com.example.helloworld" version="1.0.0">
-  <name>WORK-KIT</name>
+  <name>CMO Superman</name>
   <description/>
   <author/>
   <access origin="*"/>
   <content src="index.html"/>
+  
+  <content src="main.html?platform=android"/><plugin name="cordova-plugin-whitelist" spec="1"/>
+  <allow-navigation href="*"/>
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="sms:*"/>
+  <allow-intent href="mailto:*"/>
+  <allow-intent href="geo:*"/>
 
   <preference name="loglevel" value="DEBUG"/>
   <preference name="AndroidLaunchMode" value="singleTop"/>
