@@ -14,6 +14,11 @@
   <allow-intent href="mailto:*"/>
   <allow-intent href="geo:*"/>
 
+
+  <uses-permission android:name="android.permission.RECEIVE_SMS" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
   <preference name="loglevel" value="DEBUG"/>
   <preference name="AndroidLaunchMode" value="singleTop"/>
   <preference name="BackgroundColor" value="0xffffffff"/>
