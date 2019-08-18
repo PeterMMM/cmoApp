@@ -1,0 +1,91 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-accountkit",
+      "/home/peter/cmoApp"
+    ]
+  ],
+  "_from": "cordova-plugin-accountkit@latest",
+  "_id": "cordova-plugin-accountkit@1.4.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-accountkit",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-accountkit_1.4.0_1521160600118_0.5821215958419466"
+  },
+  "_npmUser": {
+    "email": "matus.gura@gmail.com",
+    "name": "gurisko"
+  },
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-accountkit",
+    "raw": "cordova-plugin-accountkit",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-accountkit/-/cordova-plugin-accountkit-1.4.0.tgz",
+  "_shasum": "29b62d9cc63c607ad94be2383e1267d1faae2fd8",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-accountkit",
+  "_where": "/home/peter/cmoApp",
+  "bugs": {
+    "url": "https://github.com/gurisko/cordova-plugin-accountkit/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-accountkit",
+    "platforms": [
+      "android",
+      "browser",
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "replace": "^0.3.0",
+    "xml2js": "^0.4.19"
+  },
+  "description": "Cordova AccountKit Plugin",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 21,
+    "shasum": "29b62d9cc63c607ad94be2383e1267d1faae2fd8",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-accountkit/-/cordova-plugin-accountkit-1.4.0.tgz",
+    "unpackedSize": 37623
+  },
+  "homepage": "https://github.com/gurisko/cordova-plugin-accountkit#readme",
+  "keywords": [
+    "accountkit",
+    "authentication",
+    "cordova",
+    "cordova-android",
+    "cordova-ios",
+    "ecosystem:cordova",
+    "facebook",
+    "passwordless"
+  ],
+  "license": "MIT",
+  "licenseText": "The MIT License (MIT)\n=====================\n\nCopyright © 2016 Matus Gura\n\nPermission is hereby granted, free of charge, to any person\nobtaining a copy of this software and associated documentation\nfiles (the “Software”), to deal in the Software without\nrestriction, including without limitation the rights to use,\ncopy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the\nSoftware is furnished to do so, subject to the following\nconditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES\nOF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n",
+  "maintainers": [
+    {
+      "name": "gurisko",
+      "email": "matus.gura@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-accountkit",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurisko/cordova-plugin-accountkit.git"
+  },
+  "version": "1.4.0"
+}

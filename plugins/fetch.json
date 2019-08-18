@@ -1,0 +1,15 @@
+{
+  "cordova-plugin-accountkit": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-accountkit"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_ID": "2295796030736034",
+      "APP_NAME": "cmoApp",
+      "CLIENT_TOKEN": "6edf4945452595b5e48bbd7b2dac0d02",
+      "API_VERSION": "v1.1"
+    }
+  }
+}

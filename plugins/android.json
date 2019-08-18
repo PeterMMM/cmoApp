@@ -1,0 +1,22 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.cordova.fblogin"
+    },
+    "cordova-plugin-accountkit": {
+      "APP_ID": "2295796030736034",
+      "APP_NAME": "cmo-movies",
+      "CLIENT_TOKEN": "6edf4945452595b5e48bbd7b2dac0d02",
+      "API_VERSION": "v1.1",
+      "PACKAGE_NAME": "com.cordova.fblogin"
+    }
+  },
+  "dependent_plugins": {}
+}

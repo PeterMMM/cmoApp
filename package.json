@@ -43,5 +43,15 @@
     "vue-template-compiler": "^2.5.3",
     "webpack": "^3.8.1",
     "webpack-dev-server": "2.7.1"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-accountkit": {
+        "APP_ID": "2295796030736034",
+        "APP_NAME": "cmoApp",
+        "CLIENT_TOKEN": "6edf4945452595b5e48bbd7b2dac0d02",
+        "API_VERSION": "v1.1"
+      }
+    }
   }
 }
